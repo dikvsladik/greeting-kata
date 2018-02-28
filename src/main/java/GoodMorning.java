@@ -1,5 +1,15 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+
 public class GoodMorning {
+
     public static void main(String[] args) {
-        System.out.println("Good morning!");
+
+        Scanner asd = new Scanner(System.in);
+        String name = asd.nextLine();
+
+
+        System.out.println("Good morning," + name +"!");
     }
 }
