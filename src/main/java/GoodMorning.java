@@ -10,6 +10,6 @@ public class GoodMorning {
         String name = asd.nextLine();
 
 
-        System.out.println("Good morning," + name +"!");
+        System.out.println("Happy Easter," + name +"!");
     }
 }
