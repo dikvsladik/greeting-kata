@@ -8,8 +8,10 @@ public class GoodMorning {
 
         Scanner asd = new Scanner(System.in);
         String name = asd.nextLine();
-
-
+        
+        System.out.println("");
         System.out.println("Happy Easter," + name +"!");
+        System.out.println("");
+
     }
 }
